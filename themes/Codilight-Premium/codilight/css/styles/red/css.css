@@ -1,0 +1,345 @@
+/* RED STYLE */
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+a {
+	color: #e53b2c;
+}
+
+a:hover { 
+	color: #e53b2c;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+
+#top-navigation {
+	background: #e53b2c;
+	border-bottom: 1px solid #d32819;
+}
+
+.top-menu-left {
+    background: url("images/divider.png") no-repeat right top;
+}
+
+.top-menu-left li {
+	background: url("images/divider.png") no-repeat left top;
+}
+
+.top-menu-right {
+    background: url("images/divider.png") no-repeat right top;
+}
+
+.top-menu-right li {
+    background: url("images/divider.png") no-repeat left top;
+}
+
+.top-menu-left li.small-logo a {
+	background: #e53b2c;
+}
+
+.top-menu-left li.small-logo a:hover {
+	color: #e53b2c;
+}
+
+.top-menu-left li.small-logo a span.home-icon {
+	background: url("images/home-icon.png") no-repeat;
+}
+
+.top-menu-left li.small-logo a:hover span.home-icon {
+	background: url("images/home-icon.png") no-repeat;
+	background-position: -16px 0;
+}
+
+.top-menu-left li.categories a span.categories-icon {
+	background: url("images/categories-icon.png") no-repeat;
+}
+
+.top-menu-left li.categories a:hover span.categories-icon {
+    background: url("images/categories-icon.png") no-repeat;
+	background-position: -13px 0;
+}
+
+#top-navigation .top-menu-left li.categories a:hover {
+	color: #e53b2c;
+}
+
+#top-navigation .top-menu-left li .dropdown-menu.categories li a:hover {
+	color: #e53b2c;
+}
+
+.top-menu-left li.hot-tags a span.tags-icon {
+    background: url("images/tags-icon.png") no-repeat;
+}
+
+.top-menu-left li.hot-tags a:hover span.tags-icon {
+    background: url("images/tags-icon.png") no-repeat;
+	background-position: -13px 0;
+}
+
+#top-navigation .top-menu-left li.hot-tags a:hover {
+	color: #e53b2c;
+}
+
+#top-navigation .top-menu-left li .dropdown-menu.hot-tags ul li a {
+	background: #e53b2c;
+}
+
+.top-menu-right li.search a span.search-icon {
+    background: url("images/search-icon.png") no-repeat;
+}
+
+.top-menu-right li.search a:hover span.search-icon {
+    background: url("images/search-icon.png") no-repeat;
+	background-position: -14px 0;
+}
+
+#top-navigation .top-menu-right li.search a:hover {
+	color: #e53b2c;
+}
+
+.top-menu-right li.twitter a span.twitter-icon {
+    background: url("images/twitter-icon.png") no-repeat;
+}
+
+.top-menu-right li.twitter a:hover span.twitter-icon {
+    background: url("images/twitter-icon.png") no-repeat;
+	background-position: -16px 0;
+}
+
+#top-navigation .top-menu-right li.twitter a:hover {
+	color: #e53b2c;
+}
+
+.top-menu-right li.share a span.share-icon {
+    background: url("images/share-icon.png") no-repeat;
+}
+
+.top-menu-right li.share a:hover span.share-icon {
+    background: url("images/share-icon.png") no-repeat;
+	background-position: -14px 0;
+}
+
+#top-navigation .top-menu-right li.share a:hover {
+	color: #e53b2c;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+
+#random-section .random-title h3 {
+	background: #e53b2c;
+}
+
+#random-section .random-title {
+	background: url("images/random-arrow.png") no-repeat right top;
+}
+
+#random-section .random-article h4 a:hover {
+	color: #e53b2c;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+#random-section .random-article {
+    background: #e53b2c;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+#random-section .random-article {
+    background: #e53b2c;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#random-section .random-article {
+    background: #e53b2c;
+}
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Articles
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big .hentry h2.post-title a:hover,
+.grid-small .hentry h2.post-title a:hover,
+.grid-big-second .hentry h2.post-title a:hover,
+.grid-small-second .hentry h2.post-title a:hover,
+.block .hentry .post-content-right h2.post-title a:hover,
+.widget .widget-tabs .widget-tab li h4 a:hover,
+.uxde_posts_widget .post-title a:hover, 
+.uxde_popular_widget .post-title a:hover,
+.block.loop-single .hentry .related-posts h4.related-article a:hover {
+	color: #e53b2c;
+}
+
+.grid-big-second .hentry .meta-author a {
+    color: #e53b2c;
+}
+
+.grid-big-second .hentry .meta-author a:hover {
+	color: #e53b2c;
+}
+
+.grid-small-second .hentry .meta-author a {
+	color: #e53b2c;
+}
+
+.grid-small-second .hentry .meta-author a:hover {
+	color: #e53b2c;
+}
+
+.breadcrumbs a:hover {
+	color: #e53b2c;
+}
+
+.block.loop-single .hentry .post-content .post-content-right .meta-info a, 
+.block.loop-single .hentry .post-content .post-content-right .meta-info a:hover {
+    color: #e53b2c;
+}
+
+.block.loop-single .hentry .related-posts .meta-category a {
+	background: #e53b2c;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Pagination
+/*-----------------------------------------------------------------------------------*/
+
+.pagination a, .pagination span {
+    background: #e53b2c;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Widgets
+/*-----------------------------------------------------------------------------------*/
+
+
+.widget ul li a {
+    color: #e53b2c;
+}
+
+.widget .widget-tabs ul.drop li.ui-tabs-active a {
+    color: #e53b2c;
+}
+
+.widget .widget-tabs ul.drop li.ui-tabs-active a:hover {
+    color: #e53b2c;
+}
+
+.widget .widget-tabs ul.drop li a:hover {
+	color: #e53b2c;
+}
+
+
+#sidebar .uxde_categories_widget li:hover span {
+	background: #e53b2c;
+}
+
+.uxde_tweet_widget ul li span a {
+    color: #e53b2c;
+}
+
+#sidebar .widget_categories li a:hover, #sidebar .widget_archive li a:hover, #sidebar .widget_meta li a:hover, #sidebar .widget_pages li a:hover {
+	color: #e53b2c;
+}
+
+#sidebar .uxde_newsletter_widget input[type="submit"] {
+	background: #E53B2C;
+}
+
+#sidebar .uxde_newsletter_widget input[type="submit"]:hover {
+	background: #D32819;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+
+a.comment-reply-link {
+    color: #e53b2c;
+}
+
+#respond #submit {
+    background: #e53b2c;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Footer 
+/*-----------------------------------------------------------------------------------*/
+
+
+.footer-widgets .uxde_newsletter_widget input[type="submit"] {
+	background: #E53B2C;
+	box-shadow: none;
+}
+
+.footer-widgets .uxde_newsletter_widget input[type="submit"]:hover {
+	background: #D32819;
+}
+
+#copyright-nav ul li a {
+    color: #e53b2c;
+}
+
+#back-top span {
+    background: #e53b2c url("images/back-top.png") no-repeat;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+
+.archive-lists .archives ul li:hover span {
+	background: #e53b2c;
+}
+
+.archive-lists .categories ul li:hover span {
+	background: #e53b2c;
+}
+
+.block.loop-single .hentry .archive-lists ul li .widget-post .meta-category a {
+	background: #e53b2c;
+}
+
+.block.loop-single .hentry .archive-lists ul li .widget-post h4 a:hover {
+	color: #E53B2C;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Review System
+/*-----------------------------------------------------------------------------------*/
+
+#review-box ul li .review-criteria-bar {
+    background-color: #e53b2c ! important;
+}
+
+#review-box .review-total-score .right {
+    background: #e53b2c ! important;
+}
+
+.widget .review-badge {
+    background: #e53b2c ! important;
+}

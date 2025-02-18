@@ -1,0 +1,353 @@
+/* BLACK STYLE */
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Body
+/*-----------------------------------------------------------------------------------*/
+
+a {
+	color: #111111;
+}
+
+a:hover { 
+	color: #111111;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Menu Bar
+/*-----------------------------------------------------------------------------------*/
+
+
+#top-navigation {
+	background: #111111;
+	border-bottom: 1px solid #000000;
+}
+
+.top-menu-left {
+    background: url("images/divider.png") no-repeat right top;
+}
+
+.top-menu-left li {
+	background: url("images/divider.png") no-repeat left top;
+}
+
+.top-menu-right {
+    background: url("images/divider.png") no-repeat right top;
+}
+
+.top-menu-right li {
+    background: url("images/divider.png") no-repeat left top;
+}
+
+.top-menu-left li.small-logo a {
+	background: #111111;
+}
+
+.top-menu-left li.small-logo a:hover {
+	color: #111111;
+}
+
+.top-menu-left li.small-logo a span.home-icon {
+	background: url("images/home-icon.png") no-repeat;
+}
+
+.top-menu-left li.small-logo a:hover span.home-icon {
+	background: url("images/home-icon.png") no-repeat;
+	background-position: -16px 0;
+}
+
+.top-menu-left li.categories a span.categories-icon {
+	background: url("images/categories-icon.png") no-repeat;
+}
+
+.top-menu-left li.categories a:hover span.categories-icon {
+    background: url("images/categories-icon.png") no-repeat;
+	background-position: -13px 0;
+}
+
+#top-navigation .top-menu-left li.categories a:hover {
+	color: #111111;
+}
+
+#top-navigation .top-menu-left li .dropdown-menu.categories li a:hover {
+	color: #111111;
+}
+
+.top-menu-left li.hot-tags a span.tags-icon {
+    background: url("images/tags-icon.png") no-repeat;
+}
+
+.top-menu-left li.hot-tags a:hover span.tags-icon {
+    background: url("images/tags-icon.png") no-repeat;
+	background-position: -13px 0;
+}
+
+#top-navigation .top-menu-left li.hot-tags a:hover {
+	color: #111111;
+}
+
+#top-navigation .top-menu-left li .dropdown-menu.hot-tags ul li a {
+	background: #111111;
+}
+
+#top-navigation .top-menu-left li .dropdown-menu.hot-tags ul li a:hover {
+	background: #444444;
+}
+
+.top-menu-right li.search a span.search-icon {
+    background: url("images/search-icon.png") no-repeat;
+}
+
+.top-menu-right li.search a:hover span.search-icon {
+    background: url("images/search-icon.png") no-repeat;
+	background-position: -14px 0;
+}
+
+#top-navigation .top-menu-right li.search a:hover {
+	color: #111111;
+}
+
+.top-menu-right li.twitter a span.twitter-icon {
+    background: url("images/twitter-icon.png") no-repeat;
+}
+
+.top-menu-right li.twitter a:hover span.twitter-icon {
+    background: url("images/twitter-icon.png") no-repeat;
+	background-position: -16px 0;
+}
+
+#top-navigation .top-menu-right li.twitter a:hover {
+	color: #111111;
+}
+
+.top-menu-right li.share a span.share-icon {
+    background: url("images/share-icon.png") no-repeat;
+}
+
+.top-menu-right li.share a:hover span.share-icon {
+    background: url("images/share-icon.png") no-repeat;
+	background-position: -14px 0;
+}
+
+#top-navigation .top-menu-right li.share a:hover {
+	color: #111111;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+
+#random-section .random-title h3 {
+	background: #111111;
+}
+
+#random-section .random-title {
+	background: url("images/random-arrow.png") no-repeat right top;
+}
+
+#random-section .random-article h4 a:hover {
+	color: #555555;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+#random-section .random-article {
+    background: #111111;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+#random-section .random-article {
+    background: #111111;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#random-section .random-article {
+    background: #111111;
+}
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Articles
+/*-----------------------------------------------------------------------------------*/
+
+.grid-big .hentry h2.post-title a:hover,
+.grid-small .hentry h2.post-title a:hover,
+.grid-big-second .hentry h2.post-title a:hover,
+.grid-small-second .hentry h2.post-title a:hover,
+.block .hentry .post-content-right h2.post-title a:hover,
+.widget .widget-tabs .widget-tab li h4 a:hover,
+.uxde_posts_widget .post-title a:hover, 
+.uxde_popular_widget .post-title a:hover,
+.block.loop-single .hentry .related-posts h4.related-article a:hover {
+	color: #555555;
+}
+
+.grid-big-second .hentry .meta-author a {
+    color: #111111;
+}
+
+.grid-big-second .hentry .meta-author a:hover {
+	color: #111111;
+}
+
+.grid-small-second .hentry .meta-author a {
+	color: #111111;
+}
+
+.grid-small-second .hentry .meta-author a:hover {
+	color: #111111;
+}
+
+.breadcrumbs a:hover {
+	color: #555555;
+}
+
+.block.loop-single .hentry .post-content .post-content-right .meta-info a {
+	color: #555555;
+}
+
+.block.loop-single .hentry .post-content .post-content-right .meta-info a:hover {
+    color: #555555;
+}
+
+.block.loop-single .hentry .related-posts .meta-category a {
+	background: #111111;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Pagination
+/*-----------------------------------------------------------------------------------*/
+
+.pagination a, .pagination span {
+    background: #111111;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Widgets
+/*-----------------------------------------------------------------------------------*/
+
+
+.widget ul li a {
+    color: #111111;
+}
+
+.widget .widget-tabs ul.drop li.ui-tabs-active a {
+    color: #111111;
+}
+
+.widget .widget-tabs ul.drop li.ui-tabs-active a:hover {
+    color: #555555;
+}
+
+.widget .widget-tabs ul.drop li a:hover {
+	color: #555555;
+}
+
+
+#sidebar .uxde_categories_widget li:hover span {
+	background: #111111;
+}
+
+.uxde_tweet_widget ul li span a {
+    color: #111111;
+}
+
+#sidebar .widget_categories li a:hover, #sidebar .widget_archive li a:hover, #sidebar .widget_meta li a:hover, #sidebar .widget_pages li a:hover {
+	color: #111111;
+}
+
+#sidebar .uxde_newsletter_widget input[type="submit"] {
+	background: #444444;
+}
+
+#sidebar .uxde_newsletter_widget input[type="submit"]:hover {
+	background: #555555;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+
+
+a.comment-reply-link {
+    color: #111111;
+}
+
+#respond #submit {
+    background: #111111;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Footer 
+/*-----------------------------------------------------------------------------------*/
+
+
+.footer-widgets .uxde_newsletter_widget input[type="submit"] {
+	background: #444444;
+	box-shadow: none;
+}
+
+.footer-widgets .uxde_newsletter_widget input[type="submit"]:hover {
+	background: #555555;
+}
+
+#copyright-nav ul li a {
+    color: #111111;
+}
+
+#back-top span {
+    background: #111111 url("images/back-top.png") no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Page Templates
+/*-----------------------------------------------------------------------------------*/
+
+
+.archive-lists .archives ul li:hover span {
+	background: #111111;
+}
+
+.archive-lists .categories ul li:hover span {
+	background: #111111;
+}
+
+.block.loop-single .hentry .archive-lists ul li .widget-post .meta-category a {
+	background: #111111;
+}
+
+.block.loop-single .hentry .archive-lists ul li .widget-post h4 a:hover {
+	color: #000000;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Review System
+/*-----------------------------------------------------------------------------------*/
+
+#review-box ul li .review-criteria-bar {
+    background-color: #111111 ! important;
+}
+
+#review-box .review-total-score .right {
+    background: #111111 ! important;
+}
+
+.widget .review-badge {
+    background: #111111 ! important;
+}

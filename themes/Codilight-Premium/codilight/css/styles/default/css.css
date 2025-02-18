@@ -1,0 +1,42 @@
+/* DEFAULT STYLE */
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Random Article
+/*-----------------------------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+#random-section .random-article {
+    background: #46A28D;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+#random-section .random-article {
+    background: #46A28D;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#random-section .random-article {
+    background: #46A28D;
+}
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Archives 
+/*-----------------------------------------------------------------------------------*/
+
+
+
+.block.loop-single .hentry .archive-lists ul li .widget-post .meta-category a {
+	background: #46A28D;
+}
